@@ -35,4 +35,4 @@
 - name: Pause container  # noqa 503
   pause:
     seconds: 45
-  when: container_result|changed
+  when: container_result is changed
